@@ -1,0 +1,124 @@
+{
+  "questions": {
+    "Numérique": [
+        {
+          "type": "entier",
+          "name": "email",
+          "texte": "Combien d'emails envoyez-vous par jour ?",
+          "carbone": 0.004
+        },
+        {
+          "type": "entier",
+          "name": "email_pièce_jointe",
+          "texte": "Combien d'emails avec pièce jointe envoyez-vous par jour ?",
+          "carbone": 0.019
+        },
+        {
+          "type": "entier",
+          "name": "tweet",
+          "texte": "Combien de requêtes internet faites-vous par jour ?",
+          "carbone": 0.002,
+          "choix": [
+            10,
+            25,
+            50,
+            100,
+            200,
+            500
+          ]
+        },
+        {
+          "type": "entier",
+          "name": "spam",
+          "texte": "Combien de spams recevez-vous par jour ?",
+          "carbone": 0.336
+        },
+        {
+          "type": "entier",
+          "name": "écran",
+          "texte": "Combien d'heures passez-vous devant un écran par jour ?",
+          "carbone": 0.005
+        },
+        {
+          "type": "entier",
+          "name": "visio",
+          "texte": "Combien d'heurse avez-vous passées en visioconférence cette semaine ?",
+          "carbone": 0.009
+        }
+      ],
+    "Alimentation": [
+      {
+        "type": "entier",
+        "name": "cafe",
+        "texte": "Combien de cafés buvez-vous par jour ?",
+        "carbone": 0.004
+      },
+      {
+        "type": "multiple",
+        "name": "entrée",
+        "texte": "Quelles entrées avez-vous mangée ce midi ?",
+        "choix": [
+          { "name": "Oeuf", "type": "entier", "carbone": 0.15 },
+          { "name": "Concombre", "type": "entier", "carbone": 0.03525 },
+          { "name": "Tomate", "type": "entier", "carbone": 0.392 }
+        ]
+      },
+      {
+        "type": "simple",
+        "name": "plat",
+        "texte": "Quel plat avez-vous manger ce midi ?",
+        "choix": [
+          { "name": "Repas végétarien", "carbone": 0.4 },
+          { "name": "Repas végétalien", "carbone": 0.5 },
+          { "name": "Repas boeuf", "carbone": 7 },
+          { "name": "Repas steak frites", "carbone": 4.2 }
+        ]
+      },
+      {
+        "type": "multiple",
+        "name": "dessert",
+        "texte": "Quel dessert avez-vous mangé ce midi ?",
+        "choix": [
+          { "name": "Yaourt", "carbone": 0.265 },
+          { "name": "Pomme", "carbone": 0.06 },
+          { "name": "Banane", "carbone": 0.2604 },
+          { "name": "Abricot", "carbone": 0.624 }
+        ]
+      },
+      {
+        "type": "multiple",
+        "name": "boisson",
+        "texte": "Quelles boissons avez-vous bu ce midi ?",
+        "choix": [
+          { "name": "Coca-cola", "carbone": 0.18 },
+          { "name": "Fanta", "carbone": 0.18 },
+          { "name": "Oasis", "carbone": 0.19 },
+          { "name": "Ice tea", "carbone": 0.22 }
+        ]
+      }
+    ],
+    "Transport": [
+      {
+        "type": "multiple",
+        "name": "transport",
+        "texte": "Quels moyens de transport utilisez-vous pour vous rendre au travail et combien de kilomètres faites-vous ?",
+        "choix": [
+          { "name": "Voiture thermique", "type": "entier", "carbone": 0.2 },
+          { "name": "Voiture électrique", "type": "entier", "carbone": 0.1 },
+          { "name": "Scooter moto légère", "type": "entier", "carbone": 0.08 },
+          { "name": "vélo_trotinette_électrique", "type": "entier", "carbone": 0.01 },
+          { "name": "Métro", "type": "entier", "carbone": 0.003 },
+          { "name": "Bus", "type": "entier", "carbone": 0.1 }
+        ]
+      }
+    ]
+  },
+  "resultats": {
+    "litre[S] d'eau en bouteille": 2.2,
+    "t-shirt[S]": 0.2,
+    "smartphone[S]": 0.03,
+    "kilomètre[S] en TGV": 424,
+    "kilomètre[S] en voiture": 4.6,
+    "jean[S]": 0.04
+  }
+}
